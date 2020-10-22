@@ -1,0 +1,1 @@
+images - this directory contains all external images and non-  data entities.

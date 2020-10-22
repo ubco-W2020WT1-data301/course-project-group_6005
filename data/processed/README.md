@@ -1,0 +1,1 @@
+data/proccessed - This directory contains all the proccessed and clean data from the dataset.
