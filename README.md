@@ -15,7 +15,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Team Members
 
-- Logan: one sentence about you!
+- Logan: A second year CS student with a passion for Kazoos (the musical instrument)
 - Megan: one sentence about you!
 - Josh: A third year CS student who loves Java<3
 
