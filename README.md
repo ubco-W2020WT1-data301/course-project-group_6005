@@ -11,7 +11,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your dataset in about 150-200 words
 
-{Add your stuff here}
+Our dataset comes from the FBI's Supplementary Homicide Report, for years 1976-2014, as well as from the Freedom of Information Act data for homicides which were not reported to the Justice Department. This data contains information regarding the location, date, murder weapon, as well as statistics about the victim / perpetrator, and their relation with each other. We suspect this data to have been collected by local police municipalities as the incidents occurred, and then reported to the FBI for them to release to the general public. This data is likely released in order to allow provide the general public with transparent records related to crime.
 
 ## Team Members
 
