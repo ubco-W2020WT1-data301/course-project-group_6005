@@ -1,1 +1,2 @@
-analysis - this directory contains all the work and analysis of each groupmember.
+## analysis 
+this directory contains all the work and analysis of *each* groupmember.
