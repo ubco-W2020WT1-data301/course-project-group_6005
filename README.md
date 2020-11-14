@@ -24,6 +24,9 @@ The dataset contains the city, state, year, month, crime type and the agency in 
 
 This dataset is a part of the Murder Accountability Project, a non-profit group that seeks to illuminate the ongoing issue in the US of accounting for unsolved homicide cases. Since estimates and projections make up the majority of national statistics (due to incomplete reports and unwillingness from police departments to cooperate with crime reporting programs), the project has made this dataset public for accountability. More information can be found on their website: http://www.murderdata.org/
 
+> America does a poor job tracking and accounting for its unsolved homicides. Every year, at least 5,000 killers get away with murder. The rate at which police clear homicides through arrest has declined over the years until, today, about a third go unsolved.
+> As a result, more than 256,000 Americans have perished in unsolved homicides committed since 1980 —  more than the combined death toll of all U.S. military actions since World War II. In fact, total U.S. military fatalities during the eight-year invasion and occupation of Iraq were less than a single year of civilian losses from unsolved domestic homicides.
+
 ## Team Members
 
 - Logan: A second year CS student with a passion for Kazoos (the musical instrument)
