@@ -22,10 +22,12 @@ With the detailed dataset provided, and although some of our questions require t
 The Homicide Reports dataset contains cases from the FBI’s Supplementary Homicide Report as the Freedom of Information act (which were not reported to the Justice department). 
 The dataset contains the city, state, year, month, crime type and the agency in charge of the homicide. It also contains the race, sex and age of both the victim and the perpetrator as well as their relationship and the weapon used.The homicides reported range from 1980 to 2014.
 
-This dataset is a part of the Murder Accountability Project, a non-profit group that seeks to illuminate the ongoing issue in the US of accounting for unsolved homicide cases. Since estimates and projections make up the majority of national statistics (due to incomplete reports and unwillingness from police departments to cooperate with crime reporting programs), the project has made this dataset public for accountability. More information can be found on their website: http://www.murderdata.org/
+This dataset is a part of the Murder Accountability Project, a non-profit group that seeks to illuminate the ongoing issue in the US of accounting for unsolved homicide cases. Since estimates and projections make up the majority of national statistics (due to incomplete reports and unwillingness from police departments to cooperate with crime reporting programs), the project has made this dataset public for accountability. 
 
 > America does a poor job tracking and accounting for its unsolved homicides. Every year, at least 5,000 killers get away with murder. The rate at which police clear homicides through arrest has declined over the years until, today, about a third go unsolved.
 > As a result, more than 256,000 Americans have perished in unsolved homicides committed since 1980 —  more than the combined death toll of all U.S. military actions since World War II. In fact, total U.S. military fatalities during the eight-year invasion and occupation of Iraq were less than a single year of civilian losses from unsolved domestic homicides.
+More information can be found on their website: http://www.murderdata.org/
+
 
 ## Team Members
 
