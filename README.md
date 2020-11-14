@@ -26,6 +26,7 @@ This dataset is a part of the Murder Accountability Project, a non-profit group 
 
 > America does a poor job tracking and accounting for its unsolved homicides. Every year, at least 5,000 killers get away with murder. The rate at which police clear homicides through arrest has declined over the years until, today, about a third go unsolved.
 > As a result, more than 256,000 Americans have perished in unsolved homicides committed since 1980 —  more than the combined death toll of all U.S. military actions since World War II. In fact, total U.S. military fatalities during the eight-year invasion and occupation of Iraq were less than a single year of civilian losses from unsolved domestic homicides.
+
 More information can be found on their [website](http://www.murderdata.org/).
 
 
