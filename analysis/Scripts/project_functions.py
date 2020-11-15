@@ -23,8 +23,9 @@ def load_and_process(path):
     # Chain 2: Drop irrelevant columns, not sure if we want to add new ones?
     df2 = (
         # Currently just dropping the following:
-        # Agency name, Agency Type, Victim & Perp Ethnicity (these columns are somehow different from race.)
-        df1.drop(['Agency Code', 'Agency Name', 'Agency Type', 'Victim Ethnicity', 'Perpetrator Ethnicity'], axis=1)
+        # Agency name, Agency Type, Victim & Perp Ethnicity (these columns are somehow different from race - but not.)
+        # Dropping crime type as all these crimes are murder / manslaughter
+        df1.drop(['Record ID','Agency Code', 'Agency Name', 'Agency Type', 'Crime Type', 'Victim Ethnicity', 'Perpetrator Ethnicity'], axis=1)
             .reset_index(drop=True)
     )
     return df2
