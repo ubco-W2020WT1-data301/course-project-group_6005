@@ -18,13 +18,10 @@ Here is my unordered list of **best** games
 
 ---
 
-*Here's a code block*
+## Here's a code block
 <code> 
     if Josh.equals(cool):
         print("nice")
 </code>
+
 ---
-
-*Here is some math equation:*
-
-$\sqrt{4+2}$
