@@ -17,12 +17,14 @@ Here is my unordered list of **best** games
 - TW:WH2
 
 ---
-*CODEEEE*
+
+*Here's a code block*
 <code> 
-    if (Josh.equals(cool)):
+    if Josh.equals(cool):
         print("nice")
 </code>
 ---
 
-*Math!*
+*Here is some math equation:*
+
 $\sqrt{4+2}$
