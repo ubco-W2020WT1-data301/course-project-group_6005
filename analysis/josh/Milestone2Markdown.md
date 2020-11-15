@@ -1,4 +1,4 @@
-#Mark Down Demonstration
+##Mark Down Demonstration##
 
 This is **bold**
 This is *fancy*
@@ -15,9 +15,10 @@ Here is my unordered list of **best** games
 - Stardew Valley
 - KSP
 - TW:WH2
+\n
 ---
 CODEEEE
 <code> if (Josh.equals(cool)) </code>
 ---
 *Math!*
-$\sqrt(4+2)
+'$\sqrt(4+2)'
