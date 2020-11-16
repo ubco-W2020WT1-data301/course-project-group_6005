@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -8,7 +9,7 @@ import seaborn as sns
 def load_and_process(path):
     # Chain 1: Data loaded and missing data removed
     df1 = (
-        pd.read_csv(r"..\..\data\raw\database.csv")
+        pd.read_csv(os.path.join('..','..','data','raw','database.csv'))
             .dropna()
             .loc[lambda x: x['Victim Sex'] != 'Unknown']
             # Not removing victim age at 0 because i realized that could be a baby oops
