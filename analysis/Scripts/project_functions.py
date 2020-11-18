@@ -11,14 +11,14 @@ def load_and_process(path):
     df1 = (
         pd.read_csv(os.path.join('..','..','data','raw','database.csv'))
             .dropna()
-            .loc[lambda x: x['Victim Sex'] != 'Unknown']
+            #.loc[lambda x: x['Victim Sex'] != 'Unknown']
             # Not removing victim age at 0 because i realized that could be a baby oops
-            .loc[lambda x: x['Victim Race'] != 'Unknown']
-            .loc[lambda x: x['Perpetrator Sex'] != 'Unknown']
+            #.loc[lambda x: x['Victim Race'] != 'Unknown']
+            #.loc[lambda x: x['Perpetrator Sex'] != 'Unknown']
             .loc[lambda x: x['Perpetrator Age'] != 0]
-            .loc[lambda x: x['Perpetrator Race'] != 'Unknown']
-            .loc[lambda x: x['Relationship'] != 'Unknown']
-            .loc[lambda x: x['Weapon'] != 'Unknown']
+            #.loc[lambda x: x['Perpetrator Race'] != 'Unknown']
+            #.loc[lambda x: x['Relationship'] != 'Unknown']
+            #.loc[lambda x: x['Weapon'] != 'Unknown']
             .reset_index(drop=True)
     )
     # Chain 2: Drop irrelevant columns, not sure if we want to add new ones?
