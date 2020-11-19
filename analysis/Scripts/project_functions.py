@@ -27,9 +27,23 @@ def load_and_process(path):
                                 'July':7,'August':8,'September':9,'October':10,'November':11,'December':12}})
     )
     return df2
-
-def weapon_df(path):
-    df = load_and_process(path)
-
-    
-
+#    .loc[lambda x: x['Perpetrator Sex'] != 'Unknown']
+#    .loc[lambda x: x['Weapon'] != 'Unknown']
+#    .reset_index(drop=True)
+def weapon_df(df):
+    df2 =(
+        df.groupby(['Perpetrator Sex', 'Weapon']).size()
+        .to_frame(name = 'murder_count').reset_index()
+        .loc[lambda x: x['Perpetrator Sex'] != 'Unknown']
+        .loc[lambda x: x['Weapon'] != 'Unknown']
+        .reset_index(drop=True)
+    ) 
+    return df2
+def race_analysis(df):
+    df2 = (
+        df.groupby(['Victim Race', 'Crime Solved']).size()
+        .to_frame(name = 'Count').reset_index()
+        .loc[lambda x: x['Victim Race'] != 'Unknown']
+        .reset_index(drop=True)
+    )
+    return df2
