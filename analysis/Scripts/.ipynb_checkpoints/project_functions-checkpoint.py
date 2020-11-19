@@ -56,3 +56,29 @@ def year_analysis(df):
         .reset_index(drop=True)
     )
     return df2
+def gender_analysis(df):
+    df2 = (
+        df.groupby(['Victim Sex', 'Crime Solved']).size()
+        .to_frame(name = 'Count').reset_index()
+        .loc[lambda x: x['Victim Sex'] != 'Unknown']
+        .reset_index(drop=True)
+    )
+    return df2    
+def racegender_analysis(df):
+    df2 = (
+        df.groupby(['Victim Sex', 'Crime Solved','Victim Race']).size()
+        .to_frame(name = 'Count').reset_index()
+        .loc[lambda x: x['Victim Sex'] != 'Unknown']
+        .loc[lambda x: x['Victim Race'] != 'Unknown']
+        .reset_index(drop=True)
+    )
+    return df2
+
+def victim_age_analysis(df):
+    df2 = (
+        df.groupby(['Victim Age', 'Crime Solved']).size()
+        .to_frame(name = 'Count').reset_index()
+        .loc[lambda x: x['Victim Age'] != 'Unknown']
+        .reset_index(drop=True)
+    )
+    return df2
