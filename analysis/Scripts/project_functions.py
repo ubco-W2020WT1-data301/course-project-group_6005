@@ -55,3 +55,12 @@ def gender_analysis(df):
         .reset_index(drop=True)
     )
     return df2    
+def racegender_analysis(df):
+    df2 = (
+        df.groupby(['Victim Sex', 'Crime Solved','Victim Race']).size()
+        .to_frame(name = 'Count').reset_index()
+        .loc[lambda x: x['Victim Sex'] != 'Unknown']
+        .loc[lambda x: x['Victim Race'] != 'Unknown']
+        .reset_index(drop=True)
+    )
+    return df2
