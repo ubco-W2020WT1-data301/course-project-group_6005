@@ -47,3 +47,12 @@ def race_analysis(df):
         .reset_index(drop=True)
     )
     return df2
+
+def year_analysis(df):
+    df2 = (
+        df.groupby(['Year', 'Crime Solved']).size()
+        .to_frame(name = 'Count').reset_index()
+        .loc[lambda x: x['Year'] != 'Unknown']
+        .reset_index(drop=True)
+    )
+    return df2
