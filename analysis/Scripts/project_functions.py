@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # Method Chaining
 def load_and_process(path):
     # Chain 1: Data loaded and missing data removed

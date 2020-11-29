@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # Method Chaining
 def load_and_process(path):
     # Chain 1: Data loaded and missing data removed
@@ -66,12 +65,13 @@ def gender_analysis(df):
     return df2    
 def racegender_analysis(df):
     df2 = (
-        df.groupby(['Victim Sex', 'Crime Solved','Victim Race']).size()
+        df.groupby(['Victim Race','Victim Sex', 'Crime Solved']).size()
         .to_frame(name = 'Count').reset_index()
         .loc[lambda x: x['Victim Sex'] != 'Unknown']
-        .loc[lambda x: x['Victim Race'] != 'Unknown']
-        .reset_index(drop=True)
+        .loc[lambda x: x['Victim Race']!= 'Unknown']
+        .reset_index(drop=True)  
     )
+
     return df2
 
 def victim_age_analysis(df):
